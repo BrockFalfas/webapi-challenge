@@ -1,5 +1,5 @@
 const express = require('express');
-const dbActions = require('..data/helpers/actionModel.js');
+const dbActions = require('../data/helpers/actionModel');
 const router = express.Router();
 
 router.get('/', (req, res) => {
