@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+  Express is a web app framework for Node.js. It is used for building web applications and API's. The two main features of Express are Middleware & Routing.
+
 - [ ] Describe Middleware?
+
+  Middleware is a function that has access to the request object, response object, and the next function which points to the next middleware. Since the request and response object available, middleware is able to change these objects, run any code, or even end the request/response cycle.
 
 - [ ] Describe a Resource?
 
+This is what a client can get from the backend with an API request.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+HTTP Status Codes. 200(ok), 201(created), 202(accepted).
+
 - [ ] How can we partition our application into sub-applications?
+
+We use Express Routers as a wasy to split an application into sub-applications to make it easier to maintain with things such as userRoutes and actionRoutes.
 
 ## Project Setup
 
